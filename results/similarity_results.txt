@@ -1,0 +1,35 @@
+Query word: network
+  monitors: 0.8298
+  sessions: 0.7304
+  peak: 0.5885
+  parameters: 0.5047
+  cells: 0.4193
+
+Query word: bandwidth
+  5g: 0.5181
+  during: 0.4919
+  video: 0.3813
+  antenna: 0.3650
+  between: 0.3558
+
+Query word: latency
+  analytics: 0.4798
+  involve: 0.3959
+  deployment: 0.3850
+  parameters: 0.3640
+  peak: 0.3631
+
+Query word: deployment
+  data: 0.7728
+  a: 0.6407
+  neighbouring: 0.5653
+  interference: 0.4735
+  managing: 0.4568
+
+Query word: calls
+  between: 0.6710
+  optimises: 0.5966
+  cells: 0.5474
+  upgrades: 0.3815
+  dropped: 0.3503
+
