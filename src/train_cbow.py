@@ -53,7 +53,7 @@ model = keras.Sequential([
     layers.Dense(vocab_size, activation="softmax")
 ])
 
-learning_rate = 0.05  
+learning_rate = 0.05  # change later for experiments
 optimizer = keras.optimizers.SGD(learning_rate=learning_rate)
 
 model.compile(
@@ -68,10 +68,7 @@ with open("../results/loss_cbow.txt", "w") as f:
     for loss in history.history["loss"]:
         f.write(f"{loss}\n")
 
-
-# Extract embeddings (weights of first Dense layer)
 embedding_matrix = model.layers[0].get_weights()[0]
-
 with open("../models/embeddings_cbow.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow(["word"] + [f"dim_{i}" for i in range(embedding_matrix.shape[1])])

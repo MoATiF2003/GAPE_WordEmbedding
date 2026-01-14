@@ -1,35 +1,70 @@
 Query word: network
-  monitors: 0.8298
-  sessions: 0.7304
-  peak: 0.5885
-  parameters: 0.5047
-  cells: 0.4193
+CBOW:
+  voice: 0.6156
+  optimises: 0.5491
+  planning: 0.5319
+  antenna: 0.4377
+  tuning: 0.4349
+Skip-gram:
+  analytics: 0.4062
+  through: 0.3614
+  a: 0.3578
+  telecom: 0.3533
+  backhaul: 0.3467
 
 Query word: bandwidth
-  5g: 0.5181
-  during: 0.4919
-  video: 0.3813
-  antenna: 0.3650
-  between: 0.3558
+CBOW:
+  allocation: 0.5577
+  and: 0.4639
+  telecom: 0.4579
+  managing: 0.4245
+  tuning: 0.3211
+Skip-gram:
+  cells: 0.6623
+  allocation: 0.5975
+  supports: 0.5461
+  neighbouring: 0.5299
+  managing: 0.4489
 
 Query word: latency
-  analytics: 0.4798
-  involve: 0.3959
-  deployment: 0.3850
-  parameters: 0.3640
-  peak: 0.3631
+CBOW:
+  telecom: 0.6118
+  upgrades: 0.5656
+  careful: 0.5063
+  cells: 0.4262
+  between: 0.3115
+Skip-gram:
+  spikes: 0.5856
+  upgrades: 0.5241
+  through: 0.3959
+  management: 0.3777
+  fault: 0.2403
 
 Query word: deployment
-  data: 0.7728
-  a: 0.6407
-  neighbouring: 0.5653
-  interference: 0.4735
-  managing: 0.4568
+CBOW:
+  5g: 0.6697
+  antenna: 0.5679
+  fibre: 0.5121
+  planning: 0.3592
+  by: 0.3246
+Skip-gram:
+  careful: 0.6237
+  5g: 0.6231
+  rollout: 0.5860
+  backhaul: 0.5060
+  planning: 0.4837
 
 Query word: calls
-  between: 0.6710
-  optimises: 0.5966
-  cells: 0.5474
-  upgrades: 0.3815
-  dropped: 0.3503
+CBOW:
+  video: 0.6590
+  involve: 0.5954
+  interference: 0.5238
+  parameters: 0.4742
+  a: 0.4176
+Skip-gram:
+  voice: 0.3918
+  hours: 0.3475
+  neighbouring: 0.3429
+  video: 0.3308
+  cells: 0.3256
 
